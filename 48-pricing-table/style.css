@@ -1,0 +1,130 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+
+
+
+/*========================   Nav manu ==================*/
+
+.pricing-table {
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.single-pricing-box {
+  width: 33.3333%;
+  float: left;
+  box-shadow: 0 0 10px#f3f3f3;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+}
+body {
+  color: #737678;
+  font-size: 17px;
+  line-height: 1.7;
+}
+.pricing-heading {
+  background: #f9f9f9;
+  color: #898888;
+  font-size: 17px;
+  padding: 40px;
+}
+.pricing-heading h4 {
+  color: #888888;
+  font-size: 30px;
+  font-weight: 400;
+}
+.pricing-heading h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #333333;
+}
+.single-pricing-box .active {
+  position: relative;
+  z-index: 2;
+  margin-left: -.5%;
+  margin-right: -.5%;
+  width: 34.3333%;
+}
+.single-pricing-box.active::after{
+	position: absolute;
+	right: -40px;
+	top: -6px;
+	background: #fff;
+	color: #f91942;
+	content: "Featured";
+	transform: rotate(45deg);
+	font-size: 14px;
+	padding: 5px 50px;
+	transition: .3s;
+	
+}
+.single-pricing-box.active:hover::after{
+	background: #000;
+	color: #fff;
+}
+.pricing-content {
+  padding: 60px;
+}
+.pricing-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 35px;
+}
+.pricing-btn {
+	border: 1px solid#f91942;
+	font-weight: 600;
+	color: #f91942;
+	padding: 15px 30px;
+	border-radius: 50px;
+	margin-top: 30px;
+	display: inline-block;
+	transition: .3s;
+}
+.pricing-btn:hover{
+	background:#000;
+	color: #fff;
+	border:#f91942;
+		
+}
+.active .pricing-heading {
+  background: #f91942;
+  color: #fff;
+  margin-top: -30px;
+}
+.active .pricing-heading h4,.active .pricing-heading h1 {
+  color: #fff;
+}
+.section-paddin {
+  padding: 100px 0;
+}
+
+.pricing-content a {
+  margin-top: 30px;
+}
+.active .pricing-content {
+  padding: 73px 60px;
+}
+.active a.pricing-btn {
+  background: #f91942;
+  color: #fff;
+transition: .3s;
+}
+.active a.pricing-btn:hover{
+	background:#000;
+	color: #fff;
+	border:#f91942;
+}
+
+
+
+
+
